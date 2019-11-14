@@ -70,6 +70,49 @@ h2 {
     cursor: pointer;
 }
 
+#form {
+    width: 25rem;
+    padding: 3rem;
+    margin: 2rem auto;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+#form input {
+    display: inline-block;
+    margin: 1rem ;
+}
+
+#form label {
+    margin-left: 3rem;
+}
+
+#form label:first {
+    margin-left: 0.5rem;
+}
+
+#message {
+    margin: 1.5rem auto;
+    color: red;
+    padding: 1rem;
+}
+
+.img_1 {
+    width: 20rem;
+    margin: 2rem auto;
+    display: none;
+    padding: 2rem;
+    background-color: rgb(230, 95, 158); 
+}
+
+.img_2 {
+    width: 20rem;
+    margin: 2rem auto;
+    display: none;
+    padding: 2rem;
+    background-color: rgb(118, 189, 236); 
+}
+
 /* Footer */
 
 .footer {
