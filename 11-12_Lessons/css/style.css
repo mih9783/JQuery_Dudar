@@ -70,6 +70,15 @@ h2 {
     cursor: pointer;
 }
 
+img {
+    width: 10rem;
+    height: 6rem;
+    margin: 3rem;
+    display: block;
+    background-color: rgb(231, 119, 152);
+    border-radius: 0.2rem;
+}
+
 /* Footer */
 
 .footer {
