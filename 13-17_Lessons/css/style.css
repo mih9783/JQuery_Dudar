@@ -59,23 +59,9 @@ h2 {
     cursor: pointer;
 }
 
-.btn_color_1 {
-    background: red;
-    color: #fff;
-}
 
-.btn_color_2 {
-    background: yellow;
-    color: #fff;
-}
 
-.btn_color_3 {
-    background: green;
-    color: #fff;
-}
 
-#test,
-#test-1,
 .test {
     width: 20rem;
     height: 5rem;
@@ -87,29 +73,7 @@ h2 {
     cursor: pointer;
 }
 
-.test_green {
-    background-color: green;
-}
 
-.test_red {
-    background-color: red;
-}
-
-.test_yellow {
-    background-color: yellow;
-}
-
-.div_1 {
-    background-color: green;
-}
-
-.div_2 {
-    background-color: red;
-}
-
-.div_3 {
-    background-color: yellow;
-}
 
 img {
     width: 10rem;
