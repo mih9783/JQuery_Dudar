@@ -120,7 +120,10 @@ h2 {
     box-sizing: border-box;
 }
 
-.test_6 {
+.test_6,
+.test_7,
+.test_8,
+.test_9 {
     width: 20rem;
     margin: 3rem auto;
     font-size: 1.3rem;

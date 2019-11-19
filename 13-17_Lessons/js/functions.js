@@ -80,17 +80,30 @@ $(function () {
     /*
     ВСТАВИТЬ НЕСКОЛЬКО ЭЛЕМЕНТОВ В ОДИН ИЛИ НЕСКОЛЬКО БЛОКОВ
     */
-   $(".btn_appendto").click(function () {
-    $("img, .clear").appendTo($(".test_4, .test_5"));
-});
+    $(".btn_appendto").click(function () {
+        $("img, .clear").appendTo($(".test_4, .test_5"));
+    });
 
-/*
-    ОБЕРНУТЬ ЭЛЕМЕНТ В ТЕГ
-*/
+    /*
+        ОБЕРНУТЬ ЭЛЕМЕНТ В ТЕГ
+    */
 
-$(".btn_wrap").click(function () {
-    $("a").wrap("<p></p>");
-});
+    $(".btn_wrap").click(function () {
+        $("a").wrap("<p></p>");
+    });
+
+    // Удаление элементов
+
+    $(".btn_remove").click(function () {
+        $(".test_7, .test_8").remove();
+    });
+
+    // очистка блока
+
+    $(".btn_empty").click(function () {
+        $(".test_6").empty();
+    });
+
 
 
 
