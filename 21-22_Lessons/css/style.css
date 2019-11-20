@@ -63,39 +63,40 @@ h2 {
 
 
 .test {
-    width: 5rem;
-    height: 5rem;
-    margin: 1rem;
-    cursor: pointer;
+    width: 35rem;
+    height: 18rem;
+    margin: 3rem auto;
 }
 
-.test_red {
-    background-color: red;
+#form {
+    display: none;
+    border: 2px solid rgb(79, 214, 151);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-.test_blue {
-    background-color: blue;
+#form-1 {
+    /* display: none; */
+    border: 2px solid rgb(79, 214, 151);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-.test_green {
-    background-color: green;
+a {
+    text-decoration: none;
 }
 
-img {
-    width: 10rem;
-    height: 6rem;
-    margin: 3rem 5rem 3rem 4.5rem;
-    display: block;
-    background-color: rgb(231, 119, 152);
-    border-radius: 0.2rem;
-    float: left;
+#show {
+    display: none;
 }
 
-input {
+/* input {
     width: 20rem;
     padding: 0.3rem;
     margin: 4rem auto;
-}
+} */
 
 
 /* Footer */
