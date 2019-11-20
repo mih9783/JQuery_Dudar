@@ -63,9 +63,10 @@ h2 {
 
 
 .test {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .test_red {
