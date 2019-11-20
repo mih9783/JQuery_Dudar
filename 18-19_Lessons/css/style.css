@@ -63,8 +63,7 @@ h2 {
 
 
 .test {
-    width: 10rem;
-    height: 10rem;
+    width: 40rem;
     margin: 3rem auto;
     font-size: 1.7rem;
     border: 1px solid #000;
@@ -81,6 +80,12 @@ img {
     background-color: rgb(231, 119, 152);
     border-radius: 0.2rem;
     float: left;
+}
+
+input {
+    width: 20rem;
+    padding: 0.3rem;
+    margin: 4rem auto;
 }
 
 
