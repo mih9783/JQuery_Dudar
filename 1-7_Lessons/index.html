@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1-7 урок JQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header" class="main" style="text-align: center;">
+
+            <h1>Уроки jQuery | Введение. Синтаксис. Функция $(). </h1>
+
+        </div>
+
+        <div class="content">
+
+            <section class="sect">
+
+                <h2>$.trim(str) убирает пробелы перед и после текста</h2>
+
+                <pre id="original"></pre>
+                <pre id="trimmed"></pre>
+            </section>
+
+            <section class="sect sect_1">
+
+                <h2> Отбор элементов по ID</h2>
+
+                <div id="test1">
+                    <p>нажми и появится текст</p>
+                </div>
+                <p class="test_id"></p>
+                <div id="test">
+                    <p>нажми и я исчезну</p>
+                </div>
+
+            </section>
+
+            <section class="sect sect_2">
+
+                <h2>Выбор элементов по классу</h2>
+
+                <button class="btn_class">поменяем цвет текста в блоках</button>
+
+                <div class="test">
+                    <p>Это DIV class = "test" БЛОК №1</p>
+                </div>
+                <div class="test">
+                    <p>Это DIV class = "test" БЛОК №2</p>
+                </div>
+                <div class="test">
+                    <p>Это DIV class = "test" БЛОК №3</p>
+                </div>
+                <div class="test">
+                    <p>Это DIV class = "test" БЛОК №4</p>
+                </div>
+
+                <button class="btn_first_para">поменяем цвет текста первого параграфа через 2 секунды</button>
+
+                <p class="test">Это ПАРАГРАФ №1 class = "test"</p>
+                <p class="test">Это ПАРАГРАФ №2 class = "test"</p>
+                <p class="test">Это ПАРАГРАФ №3 class = "test"</p>
+                <button class="btn_fourh_para">поменяем цвет текста четвёртого параграфа через 2 секунды</button>
+                <p class="test">Это ПАРАГРАФ №4 class = "test"</p>
+
+            </section>
+
+            <section class="sect sect_3">
+
+                <h2>Выборка по тегам </h2>
+
+                <div class="teg">Див 1</div>
+                <div class="teg">Див 2</div>
+                <div class="teg">Див 3</div>
+                <div class="teg">Див 4</div>
+
+                <p class="teg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur natus quia sed!
+                </p>
+                <p class="teg">
+                    Nobis ipsum repudiandae illo placeat facere impedit eius accusamus! Rem, dolore hic?
+                </p>
+                <p class="teg">
+                    Sunt repellat voluptas amet expedita dolorum atque delectus quasi, est dolorem voluptate.
+                </p>
+                <p class="teg">
+                    Accusantium sunt a laboriosam reprehenderit nihil officiis qui maxime ut explicabo vel?
+                </p>
+                <p class="teg">
+                    Officia voluptas quod odio. Numquam vitae eaque commodi magnam, aspernatur aperiam non.
+                </p>
+
+                <button class="btn_teg">Сколько div в блоке</button>
+
+                <p class="result"></p>
+            </section>
+
+            <section class="sect sect_4">
+
+                <h2>Поиск по атрибутам (используется чаще)</h2>
+
+                <img class="img" src="1.jpg" alt="картинка №1">
+                <img class="img" src="2.jpg" alt="" title="картинка">
+                <img class="img" src="3.jpg" alt="картинка №3">
+                <img class="img" src="4.jpg" alt="" title="картинка">
+
+                <button class="btn_atr">Сколько картинок с атрибутом title содержится в секции sect_4</button>
+                
+                <p class="result_atr"></p>
+            </section>
+
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2> Footer</h>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="js/functions.js"></script>
+</body>
+
+
+
+</html>

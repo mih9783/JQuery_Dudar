@@ -1,0 +1,124 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+**{
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    background-color: rgb(245, 68, 68);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 0;
+    color: rgb(24, 100, 24);
+}
+
+/* Content */
+
+.wrapper {
+    background: #CCC;
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.content {
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.sect {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: rgb(212, 236, 243);
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.btn {
+    margin-top: 2rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.test {
+    width: 20rem;
+    height: 5rem;
+    margin: 3rem auto;
+    font-size: 1.7rem;
+    border: 1px solid #000;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#form {
+    width: 25rem;
+    padding: 3rem;
+    margin: 2rem auto;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+}
+
+#form input {
+    display: inline-block;
+    margin: 1rem ;
+}
+
+#form label {
+    margin-left: 3rem;
+}
+
+#form label:first {
+    margin-left: 0.5rem;
+}
+
+#message {
+    margin: 1.5rem auto;
+    color: red;
+    padding: 1rem;
+}
+
+.img_1 {
+    width: 20rem;
+    margin: 2rem auto;
+    display: none;
+    padding: 2rem;
+    background-color: rgb(230, 95, 158); 
+}
+
+.img_2 {
+    width: 20rem;
+    margin: 2rem auto;
+    display: none;
+    padding: 2rem;
+    background-color: rgb(118, 189, 236); 
+}
+
+/* Footer */
+
+.footer {
+    background: #36F;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}

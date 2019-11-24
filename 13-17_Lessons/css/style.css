@@ -1,0 +1,175 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+** {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    background-color: rgb(245, 68, 68);
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    margin: 0;
+    color: rgb(24, 100, 24);
+}
+
+/* Content */
+
+.wrapper {
+    background: #CCC;
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.content {
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.sect {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: rgb(212, 236, 243);
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.btn {
+    margin: 2rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+.test {
+    width: 10rem;
+    height: 10rem;
+    margin: 3rem auto;
+    font-size: 1.7rem;
+    border: 1px solid #000;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.test_1 {
+    width: 30rem;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    border: 1px solid #000;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.test_2 {
+    width: 20rem;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    border: 4px solid red;
+    border-radius: 0.3rem;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.test_3 {
+    width: 15rem;
+    margin: 3rem 0.5rem;
+    font-size: 1.3rem;
+    border: 4px solid red;
+    border-radius: 0.3rem;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.test_4,
+.test_5 {
+    width: 100%;
+    min-height: 6rem;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    border: 4px solid red;
+    border-radius: 0.3rem;
+    /* padding: 1.7rem; */
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.test_6,
+.test_7,
+.test_8,
+.test_9 {
+    width: 20rem;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    border: 4px solid red;
+    border-radius: 0.3rem;
+    padding: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+img {
+    width: 10rem;
+    height: 6rem;
+    margin: 3rem 5rem 3rem 4.5rem;
+    display: block;
+    background-color: rgb(231, 119, 152);
+    border-radius: 0.2rem;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+.btn_color_3 {
+    background: green;
+    color: #fff;
+}
+
+.btn_4 {
+    background-color: rgb(231, 147, 196);
+}
+
+.btn_5 {
+    background-color: rgb(236, 210, 92);
+}
+
+
+/* Footer */
+
+.footer {
+    background: #36F;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
