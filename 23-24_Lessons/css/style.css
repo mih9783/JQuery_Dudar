@@ -62,7 +62,8 @@ h2 {
 
 
 
-.test {
+.test,
+.test-1 {
     width: 35rem;
     height: 18rem;
     margin: 3rem auto;
@@ -88,8 +89,16 @@ a {
     text-decoration: none;
 }
 
-#show {
+#show,
+#show-1,
+#show-2 {
     display: none;
+}
+#img,
+#img-1 {
+    width: 12rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /* input {
